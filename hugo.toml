@@ -1,0 +1,4 @@
+baseURL = 'https://yasha.engineer/'
+languageCode = 'en-us'
+title = 'Yasha Prikhodko'
+theme = 'terminal'
