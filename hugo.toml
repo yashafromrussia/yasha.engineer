@@ -6,7 +6,7 @@ paginate = 5
 
 [params]
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 6
 
   # show selector to switch language
   showLanguageSelector = false
@@ -76,12 +76,22 @@ paginate = 5
       logoText = "Yasha Prikhodko"
       logoHomeLink = "/"
 
-    # [languages.en.menu]
-    #   [[languages.en.menu.main]]
-    #     identifier = "about"
-    #     name = "About"
-    #     url = "/about"
-    #   [[languages.en.menu.main]]
-    #     identifier = "showcase"
-    #     name = "Showcase"
-    #     url = "/showcase"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/yashafromrussia"
+        [languages.en.menu.main.params]
+          newTab = true
+      [[languages.en.menu.main]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/yashap/"
+        [languages.en.menu.main.params]
+          newTab = true
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/yashafromrussia"
+        [languages.en.menu.main.params]
+          newTab = true
